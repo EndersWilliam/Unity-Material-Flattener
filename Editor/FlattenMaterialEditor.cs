@@ -144,7 +144,7 @@ namespace UnityEditor.FlattenMaterial
             materials = Utilities.GatherMaterials(gameObjects);
 
             power = 1;
-            while (power * 2 < materials.Length)
+            while (power * power < materials.Length)
                 power *= 2;
 
             textureSizes = totalTextureSizes.Where(x => x >= power).ToArray();
