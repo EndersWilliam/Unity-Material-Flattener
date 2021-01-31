@@ -1,0 +1,23 @@
+{
+    "name": "com.enders.flattenmaterial",
+    "displayName": "Material Flattener",
+    "version": "1.0.0",
+    "unity": "2018.4",
+    "unityRelease": "0f1",
+    "description": "Importer for the Photoshop Brush (ABR) file format.",
+    "dependencies": {
+        "com.unity.formats.fbx": "4.4.0"
+     },
+    "keywords": [
+    "fbx",
+    "modeling",
+    "3d",
+    "material",
+    "texture",
+    "flatten"
+    ],
+    "author": {
+        "name": "William Enders",
+        "url": "https://twitter.com/willenders_"
+    }
+}
