@@ -34,7 +34,7 @@ namespace UnityEditor.FlattenMaterial
         }
 
         [MenuItem("Tools/Flatten Materials")]
-        private static void ShowWindow()
+        public static void ShowWindow()
         {
             var window = GetWindow<FlattenMaterialEditor>();
             window.titleContent = new GUIContent("Flatten Material Editor");
