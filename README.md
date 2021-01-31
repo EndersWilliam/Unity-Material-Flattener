@@ -2,6 +2,8 @@
 
 This editor takes an FBX with multiple materials and flattens it into a single material, then exports a new FBX. Intended to use with [Kenney assets](https://www.kenney.nl/assets).
 
+Tools -> Flatten Materials
+
 
 # How to use
 
@@ -14,7 +16,7 @@ This editor takes an FBX with multiple materials and flattens it into a single m
     Add package from git URL button
     
 4.  Select  **Add package from git URL**  from the add menu. A text box and an  **Add**  button appear.
-5.  Enter `https://github.com/EndersWilliam/Unity-ABR-Importer.git`  in the text box and click **Add**
+5.  Enter `https://github.com/EndersWilliam/Unity-Material-Flattener.git`  in the text box and click **Add**
 
 # Notes
 TextureScale script script by [Eric Haines](http://wiki.unity3d.com/index.php/TextureScale).
