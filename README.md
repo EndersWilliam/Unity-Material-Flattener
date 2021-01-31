@@ -4,13 +4,16 @@ This editor takes an FBX with multiple materials and flattens it into a single m
 
 Make sure to have the FBX Exporter package installed.
 
-# How to install
+# How to use
 
  1. Tools -> Flatten Materials
  2. Select a folder with one or more FBX files
  3. Convert Objects
  4. Select a folder to ouput your new FBX files
+ 
+# Why are my objects blurry?
 
+There are a few ways to correct this depending on the intended game engine. If the engine lets you choose the filtering of a texture, change the generated texture filtering to Point and turn off compression. If it doesn't, you can either scale the generated texture up with the Texture Size option or increase the padding of the UVs, or both!
 
 # How to install
 
